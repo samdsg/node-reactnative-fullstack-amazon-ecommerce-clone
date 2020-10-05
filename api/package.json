@@ -1,0 +1,29 @@
+{
+  "name": "amazoneclonenodejsbackend",
+  "version": "1.0.0",
+  "description": "Amazon clone by samuel Anthony",
+  "main": "sever.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Samuel Anthony",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "js": "^0.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.0",
+    "mongoose": "^5.10.7",
+    "multer": "^1.4.2",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}

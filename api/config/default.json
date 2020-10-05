@@ -1,0 +1,4 @@
+{
+  "mongoURI": "Your Mongo Db Uri",
+  "amazonsecret": "amazon_secret"
+}
